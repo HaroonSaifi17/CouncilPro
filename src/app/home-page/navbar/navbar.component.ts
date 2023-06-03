@@ -12,7 +12,7 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
   click(f:HTMLDivElement){
-    if(f.style.display=="none"){
+    if(f.style.display!="block"){
       f.style.display="block"
     }
     else{

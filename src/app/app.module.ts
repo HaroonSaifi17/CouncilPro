@@ -7,6 +7,8 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './home-page/navbar/navbar.component';
 import { HeroSectionComponent } from './home-page/hero-section/hero-section.component';
 import { AboutSectionComponent } from './home-page/about-section/about-section.component';
+import { ServiceSectionComponent } from './home-page/service-section/service-section.component';
+import { ContactSectionComponent } from './home-page/contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutSectionComponent } from './home-page/about-section/about-section.c
     HomePageComponent,
     NavbarComponent,
     HeroSectionComponent,
-    AboutSectionComponent
+    AboutSectionComponent,
+    ServiceSectionComponent,
+    ContactSectionComponent
   ],
   imports: [
     BrowserModule,
