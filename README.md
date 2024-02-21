@@ -1,27 +1,42 @@
-# CounselPro
+ # Counsel Pro
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+[![Node.js](https://img.shields.io/badge/Node.js-16.x-green.svg)](https://nodejs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Angular Version](https://img.shields.io/badge/Angular-v14-red)](https://angular.io/)
+[![Built with Tailwind CSS](https://img.shields.io/badge/Built_with-Tailwind_CSS-blueviolet?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-## Development server
+![Screenshot](screenshots/homepage.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+CourselPro: Your ultimate student counsel guide, powered by Angular and Tailwind for seamless navigation and sleek design.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To get started, follow these steps:
 
-## Build
+1. Clone this repository to your local machine.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+git clone https://github.com/haroonsaifi17/CounselPro.git && cd CounselPro
+```
 
-## Running unit tests
+2. Install project dependencies using npm
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm install
+```
 
-## Running end-to-end tests
+## Usage
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To run the app, use the following command:
 
-## Further help
+```bash
+npm run ng serve
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Contribution:
+
+Contributions are welcome! Feel free to submit pull requests or open issues for any suggestions, bug fixes, or improvements.
+
+### License:
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
